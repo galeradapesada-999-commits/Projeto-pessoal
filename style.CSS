@@ -1,0 +1,165 @@
+/* =====================
+   GLOBAL
+   ===================== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+/* =====================
+   LAYOUT
+   ===================== */
+header {
+    background-color: #0057b8;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffffff;
+    margin: 0;
+}
+
+header nav {
+    margin-top: 15px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+header nav a:hover {
+    color: #b3cdf0;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #0057b8;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* =====================
+   SEÇÕES
+   ===================== */
+section {
+    background-color: #e8f1fb;
+    border: 1px solid #b3cdf0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* =====================
+   TÍTULOS
+   ===================== */
+h1 {
+    color: #333333;
+}
+
+h2 {
+    color: #333333;
+}
+
+/* =====================
+   TABELA
+   ===================== */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+th {
+    background-color: #b3cdf0;
+}
+
+/* =====================
+   FORMULÁRIO          
+   ===================== */
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #b3cdf0;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+} 
+    
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer; 
+
+}
+
+button[type="submit"] {
+    background-color: #0057b8;
+    color: #ffffff;
+}
+
+button[type="submit"]:hover {
+    background-color: #003f8a;
+}
+
+button[type="reset"] {
+    background-color: #cccccc;
+    color: #333333;
+} 
+
+button[type="reset"]:hover {
+    background-color: #aaaaaa;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-bottom: 1px;
+}
+
+/* =====================
+   LINKS          
+   ===================== */
+#links a {
+    display: inline-block;
+    background-color:#003f8a ;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 5px;
+}
+
+#links a:hover {
+    background-color:#00572b;
+}
+
+/* =====================
+   IMAGEM
+   ===================== */
+   img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    border: 3px solid #b3cdf0;
+    max-width: 100%;
+   }
