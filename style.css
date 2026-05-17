@@ -30,6 +30,7 @@ header nav a {
     color: #ffffff;
     text-decoration: none;
     margin: 0 10px;
+    transition: color 0.3s ease;
 }
 header nav a:hover {
     color: #b3cdf0;
@@ -115,8 +116,8 @@ button {
     border: none;
     border-radius: 6px;
     font-size: 16px;
-    cursor: pointer; 
-
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button[type="submit"] {
@@ -153,6 +154,7 @@ input[type="checkbox"] {
     padding: 10px 20px;
     border-radius: 6px;
     margin: 5px;
+    transition: background-color 0.3s ease;
 }
 
 #links a:hover {
