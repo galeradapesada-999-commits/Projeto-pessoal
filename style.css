@@ -1,24 +1,39 @@
+/* =====================
+   VARIÁVEIS
+   ===================== */
+:root {
+    --color-primary: #0057b8;
+    --color-primary-dark: #003f8a;
+    --color-primary-light: #b3cdf0;
+    --color-section-bg: #e8f1fb;
+    --color-bg: #f9f9f9;
+    --color-text: #333333;
+    --color-btn-reset: #cccccc;
+    --color-btn-reset-dark: #aaaaaa;
+    --color-links-hover: #00572b;
+    --color-white: #ffffff;
+}
 
 /* =====================
    GLOBAL
    ===================== */
 body {
     font-family: "DM Serif Text", serif;
-    background-color: #f9f9f9;
-    color: #333333;
+    background-color: var(--color-bg);
+    color: var(--color-text);
 }
 
 /* =====================
    LAYOUT
    ===================== */
 header {
-    background-color: #0057b8;
+    background-color: var(--color-primary);
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
-    color: #ffffff;
+    color: var(--color-white);
     margin: 0;
 }
 
@@ -27,13 +42,13 @@ header nav {
 }
 
 header nav a {
-    color: #ffffff;
+    color: var(--color-white);
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s ease;
 }
 header nav a:hover {
-    color: #b3cdf0;
+    color: var(--color-primary-light);
     text-decoration: underline;
 }
 
@@ -44,8 +59,8 @@ main {
 }
 
 footer {
-    background-color: #0057b8;
-    color: #ffffff;
+    background-color: var(--color-primary);
+    color: var(--color-white);
     text-align: center;
     padding: 20px;
     margin-top: 40px;
@@ -55,8 +70,8 @@ footer {
    SEÇÕES
    ===================== */
 section {
-    background-color: #e8f1fb;
-    border: 1px solid #b3cdf0;
+    background-color: var(--color-section-bg);
+    border: 1px solid var(--color-primary-light);
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 30px;
@@ -66,11 +81,11 @@ section {
    TÍTULOS
    ===================== */
 h1 {
-    color: #333333;
+    color: var(--color-text);
 }
 
 h2 {
-    color: #333333;
+    color: var(--color-text);
 }
 
 /* =====================
@@ -88,7 +103,7 @@ th, td {
 }
 
 th {
-    background-color: #b3cdf0;
+    background-color: var(--color-primary-light);
 }
 
 /* =====================
@@ -99,7 +114,7 @@ input, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #b3cdf0;
+    border: 1px solid var(--color-primary-light);
     border-radius: 6px;
     font-size: 16px;
     font-family: "DM Serif Text", serif;
@@ -121,21 +136,21 @@ button {
 }
 
 button[type="submit"] {
-    background-color: #0057b8;
-    color: #ffffff;
+    background-color: var(--color-primary);
+    color: var(--color-white);
 }
 
 button[type="submit"]:hover {
-    background-color: #003f8a;
+    background-color: var(--color-primary-dark);
 }
 
 button[type="reset"] {
-    background-color: #cccccc;
-    color: #333333;
+    background-color: var(--color-btn-reset);
+    color: var(--color-text);
 } 
 
 button[type="reset"]:hover {
-    background-color: #aaaaaa;
+    background-color: var(--color-btn-reset-dark);
 }
 
 input[type="checkbox"] {
@@ -157,8 +172,8 @@ input[type="checkbox"] {
    ===================== */
 #links a {
     display: inline-block;
-    background-color:#003f8a ;
-    color: #ffffff;
+    background-color: var(--color-primary) ;
+    color: var(--color-white);
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 6px;
@@ -167,7 +182,7 @@ input[type="checkbox"] {
 }
 
 #links a:hover {
-    background-color:#00572b;
+    background-color:var(--color-links-hover);
 }
 
 /* =====================
@@ -177,7 +192,7 @@ input[type="checkbox"] {
     display: block;
     margin: 20px auto;
     border-radius: 12px;
-    border: 3px solid #b3cdf0;
+    border: 3px solid var(--color-primary-light);
     max-width: 100%;
    }
 
