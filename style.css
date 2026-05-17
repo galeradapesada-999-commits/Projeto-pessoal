@@ -171,3 +171,34 @@ input[type="checkbox"] {
     border: 3px solid #b3cdf0;
     max-width: 100%;
    }
+
+   /* =====================
+        RESPONSIVIDADE
+      ===================== */
+   @media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header { 
+        padding: 15px 10px;
+    }
+
+    header nav a {
+        display: block;
+        margin: 5px 0px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px 10px;
+    }
+
+}
