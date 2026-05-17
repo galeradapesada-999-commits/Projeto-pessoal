@@ -123,7 +123,6 @@ button {
 button[type="submit"] {
     background-color: #0057b8;
     color: #ffffff;
-    margin-top: 15px;
 }
 
 button[type="submit"]:hover {
@@ -142,6 +141,15 @@ button[type="reset"]:hover {
 input[type="checkbox"] {
     width: auto;
     margin-bottom: 1px;
+}
+
+.checkbox-area {
+    margin-bottom: 15px;
+}
+
+.buttons-area {
+    display: flex;
+    gap: 10px;
 }
 
 /* =====================
@@ -196,6 +204,8 @@ input[type="checkbox"] {
 
     table {
         font-size: 14px;
+        display: block;
+        overflow-x: auto;
     }
 
     th, td {
@@ -205,7 +215,14 @@ input[type="checkbox"] {
     button {
         display: block;
         width: 100%;
-        margin-top: 5px;
+    }
+
+    .buttons-area {
+        flex-direction: column;
+    }
+
+    .buttons-area button {
+        width: 100%;
     }
 
 }
@@ -213,7 +230,10 @@ input[type="checkbox"] {
     @media (min-width: 601px) {
     button {
         display: inline-block;
-        width: 100%;
-        margin-top: 5px;
+        width: auto;
+    }
+
+    .buttons-area {
+        flex-direction: row;
     }
 }
